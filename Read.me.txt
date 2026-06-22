@@ -1,0 +1,103 @@
+# Padaria Sabor & Tradição
+
+## Integrantes da dupla
+
+* Arthur Maia Gomes
+* Helenna Sevilha Souza
+
+## Descrição do caso escolhido
+
+O caso escolhido foi uma padaria fictícia denominada **Padaria Sabor & Tradição**. O objetivo do projeto foi desenvolver um site institucional simples e funcional para apresentar a empresa, seus produtos, horários de funcionamento e formas de contato com os clientes. O desenvolvimento permitiu aplicar os conhecimentos adquiridos durante o bimestre em HTML, CSS, JavaScript e Bootstrap.
+
+## Necessidade identificada
+
+Pequenos negócios frequentemente possuem pouca presença digital, dificultando a divulgação de seus produtos e serviços. A criação do site busca solucionar essa necessidade, oferecendo um canal simples e acessível para que clientes encontrem informações sobre a padaria, conheçam seus produtos e possam entrar em contato de forma rápida.
+
+## Público-alvo
+
+O público-alvo do site é composto por:
+
+* Moradores da região;
+* Clientes interessados em produtos de panificação;
+* Pessoas que procuram informações sobre horários de funcionamento;
+* Clientes que desejam entrar em contato com a empresa.
+
+Esse público precisa encontrar facilmente informações sobre os produtos oferecidos, localização, horários de atendimento e formas de contato.
+
+## Objetivo do site
+
+O principal objetivo do site é divulgar os produtos e serviços da padaria, apresentar informações institucionais e facilitar o contato com os clientes por meio de um formulário simples de comunicação.
+
+## Processo de desenvolvimento
+
+O desenvolvimento foi realizado em etapas. Inicialmente foi criada a estrutura básica em HTML, definindo as seções principais do site. Em seguida, foi aplicada a estilização com CSS para melhorar a aparência visual.
+
+Durante o processo, a dupla realizou análises e ajustes para aprimorar a experiência do usuário, incluindo melhorias na responsividade, organização do conteúdo e aplicação de animações suaves.
+
+Uma alteração importante ocorreu na seção de produtos. Inicialmente os itens estavam organizados verticalmente, porém o resultado visual não foi considerado satisfatório. Após testes e avaliações, a estrutura foi reorganizada em formato horizontal, proporcionando melhor aproveitamento do espaço e uma apresentação mais agradável.
+
+## Principais decisões do projeto
+
+As principais decisões adotadas foram:
+
+* Utilização de uma estrutura HTML organizada em seções bem definidas;
+* Escolha de cores e fontes inspiradas nos exemplos trabalhados em sala de aula;
+* Organização dos produtos em cards dispostos horizontalmente;
+* Implementação de responsividade para adaptação a diferentes tamanhos de tela;
+* Inclusão de atributos de acessibilidade, como textos alternativos em imagens;
+* Utilização de animações suaves para melhorar a experiência visual;
+* Implementação de uma funcionalidade simples em JavaScript para interação com o usuário.
+
+## Funcionalidade em JavaScript
+
+Foi implementada uma funcionalidade de confirmação de envio do formulário de contato. Ao clicar no botão "Enviar", uma mensagem de alerta é exibida informando que a mensagem foi enviada com sucesso.
+
+Essa funcionalidade foi escolhida por ser simples, útil para o usuário e adequada ao nível de conhecimento trabalhado durante o desenvolvimento do projeto.
+
+## Uso de Bootstrap
+
+O projeto utilizou recursos do Bootstrap para facilitar a construção da interface e melhorar a organização visual da página.
+
+Foram utilizadas principalmente as classes:
+
+* `container`, para centralização e organização do conteúdo;
+* `btn`, para padronização visual dos botões.
+
+A utilização do Bootstrap permitiu uma aparência mais organizada e profissional, além de auxiliar na responsividade do site.
+
+## Testes realizados
+
+Foram realizados diversos testes durante o desenvolvimento:
+
+* Teste dos links de navegação do menu;
+* Teste de carregamento das imagens;
+* Verificação da navegação por teclado;
+* Teste do funcionamento dos botões;
+* Teste da funcionalidade JavaScript do formulário;
+* Teste de rolagem da página;
+* Teste de responsividade em diferentes tamanhos de tela;
+* Verificação do comportamento dos textos, imagens e elementos em dispositivos menores;
+* Teste da publicação no GitHub Pages.
+
+Após os ajustes necessários, todos os testes apresentaram resultados satisfatórios.
+
+## Links
+
+* Link do repositório: https://github.com/SEU-USUARIO/SEU-REPOSITORIO
+* Link do site publicado: https://SEU-USUARIO.github.io/SEU-REPOSITORIO/
+
+## Contribuição dos integrantes
+
+### Arthur Maia Gomes
+
+* Desenvolvimento da estrutura HTML;
+* Organização do conteúdo das páginas;
+* Realização de testes e ajustes finais.
+* Desenvolvimento do CSS;
+
+### Helenna Sevilha
+
+* Implementação da funcionalidade em JavaScript;
+* Aplicação da responsividade;
+* Organização visual dos elementos;
+* Revisão geral e apoio nos testes do projeto.

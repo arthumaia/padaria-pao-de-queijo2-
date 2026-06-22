@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padaria Pão de Queijo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>🥖 Padaria Pão de Queijo</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#horarios">Horários</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <section id="inicio">
+        <h2>Bem-vindo à nossa padaria</h2>
+        <p>
+            Aqui você encontra pães frescos, bolos artesanais,
+            salgados e bebidas preparados diariamente com qualidade e muito amor.
+        </p>
+
+        <a href="#produtos">Conheça nossos produtos</a>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+
+        <article>
+            <h3>Pão Francês</h3>
+            <img src="img/pao-frances.jpg" alt="Pão francês recém assado">
+            <p>Pão tradicional assado diariamente.</p>
+        </article>
+
+        <article>
+            <h3>Bolo de Chocolate</h3>
+            <img src="img/bolo-chocolate.jpg" alt="Bolo de chocolate">
+            <p>Bolo artesanal feito com ingredientes selecionados.</p>
+        </article>
+
+        <article>
+            <h3>Croissant</h3>
+            <img src="img/croissant.jpg" alt="Croissant amanteigado">
+            <p>Massa leve e saborosa para qualquer momento do dia.</p>
+        </article>
+
+        <article>
+            <h3>Café Expresso</h3>
+            <img src="img/cafe.jpg" alt="Xícara de café expresso">
+            <p>Café quente preparado na hora.</p>
+        </article>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Nossa padaria atende a comunidade há mais de 10 anos.</p>
+        <p>Qualidade, atendimento e produtos frescos todos os dias.</p>
+    </section>
+
+    <section id="horarios">
+        <h2>Horário de Funcionamento</h2>
+        <ul>
+            <li>Segunda a Sexta: 06h às 20h</li>
+            <li>Sábado: 06h às 18h</li>
+            <li>Domingo: 07h às 13h</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+
+        <p><strong>Telefone:</strong> (61) 99999-9999</p>
+        <p><strong>E-mail:</strong> padariapaodequeijo@gmail.com</p>
+
+        <h3>Envie uma mensagem</h3>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="button"
+                    class="btn btn-warning"
+                    onclick="enviarMensagem()">
+                Enviar
+            </button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Padaria Pão de Queijo</p>
+</footer>
+
+</body>
+</html>
